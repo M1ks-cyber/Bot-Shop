@@ -24,7 +24,9 @@ async def main():
     dp.include_router(router)
 
     commands = [
-        BotCommand(command="start", description="Запустить бота")
+        BotCommand(command="start", description="Запустить бота"),
+        BotCommand(command="cart", description="Корзина"),
+        BotCommand(command="add_product", description="Добавить продукт")
     ]
     await bot.set_my_commands(commands)
 
