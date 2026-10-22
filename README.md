@@ -17,5 +17,3 @@ A simple Telegram shop bot built with **aiogram 3** and **SQLAlchemy (async)**.
 - aiogram 3
 - SQLAlchemy 2.0 (async) + aiosqlite
 - SQLite
-
-## Project structure
